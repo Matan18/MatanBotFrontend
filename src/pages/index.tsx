@@ -31,10 +31,10 @@ export default function Home() {
         <p>Já existe um meio de fazer isso, tente seguir esse <a href="https://support.discord.com/hc/pt-br/articles/212112068-FAQ-Twitch-Integration">passo a passo</a> antes de cadastrar o bot.</p>
         <h3>Requisitos</h3>
     Pra continuar, vamos precisar que permita o <a
-          href="https://discord.com/api/oauth2/authorize?client_id=776083372787236864&permissions=8&redirect_uri=http://localhost:3001/&response_type=code&scope=connections%20bot%20guilds%20identify&state=discord"
+          href="https://discord.com/api/oauth2/authorize?client_id=776083372787236864&permissions=8&redirect_uri=https://matanbot.matandriola.com/&response_type=code&scope=connections%20bot%20guilds%20identify&state=discord"
         >acesso
       do bot ao servidor do discord</a>, e permita acesso da aplicação a <a
-          href="https://id.twitch.tv/oauth2/authorize?client_id=23fng5cv85e3aif4shfi6ifvotl5uw&redirect_uri=http://localhost:3001/&response_type=code&scope=channel%3Aread%3Asubscriptions%20channel_subscriptions&state=twitch"> sua
+          href="https://id.twitch.tv/oauth2/authorize?client_id=23fng5cv85e3aif4shfi6ifvotl5uw&redirect_uri=https://matanbot.matandriola.com/&response_type=code&scope=channel%3Aread%3Asubscriptions%20channel_subscriptions&state=twitch"> sua
       conta na twitch.</a> Após sua autorização, você volta pra essa página.
     <h3>Observação para sua segurança: </h3>
         <p>Várias empresas como google, twitch, discord, spotify, facebook possuem essa forma de cadastro, é conhecida na programação como Oauth2, nessas situações você será direcionado diretamente para o servidor da empresa, e será perguntado para você se autoriza o acesso do aplicativo, inforando pra você quais dos seus dados o aplicativo quer usar</p>
