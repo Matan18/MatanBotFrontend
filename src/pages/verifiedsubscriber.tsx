@@ -13,7 +13,9 @@ const Verified: React.FC = () => {
       console.log(guild_id)
       api.post('verifiedsubscriber', {
         code, guild_id
-      })
+      },
+        { headers: [{ 'Access-Control-Allow-Origin': "*" }] }
+      )
 
     }
   })

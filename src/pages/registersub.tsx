@@ -4,7 +4,7 @@ import React from 'react';
 const RegisterSub: React.FC = () => {
   const { query } = useRouter();
   console.log("Query: ", query.guild_id)
-  const baseUrl = "https://discord.com/api/oauth2/authorize?response_type=code&client_id=776083372787236864&scope=identify%20connections&redirect_uri=https://matanbot.matandriola.com/verifiedsubscriber&prompt=consent&state="
+  const baseUrl = "https://discord.com/api/oauth2/authorize?response_type=code&client_id=776083372787236864&scope=identify%20connections&redirect_uri=http://localhost:3001/verifiedsubscriber&prompt=consent&state="
 
   return (
     <div>
